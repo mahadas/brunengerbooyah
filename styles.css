@@ -1,0 +1,92 @@
+.n-as-break-word {
+  color: #fff !important;
+}
+
+.components-chatbox-user-menu.bot {
+  background: #232323 !important;
+  padding: 10px !important;
+}
+
+
+
+.emote {
+  vertical-align: middle;
+  width: 25px;
+}
+
+.icon-arrow{
+  visibility: hidden;
+}
+
+
+.btn-new-message{
+  visibility: hidden;
+}
+
+.message-banner.sticker-image img{
+  width: 25px;
+  height: 25px;
+}
+
+
+.emotesgrandes{
+ vertical-align: middle;
+  width: 35px;
+}
+
+.components-chatbox-user-menu.hide {
+  display: none !important;
+}
+
+.color-picker {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  display: flex;
+  width: 360px;
+  flex-wrap: wrap;
+}
+
+.W-myinfo {
+  position: relative;
+}
+
+.color-picker .color {
+  width: 40px;
+  height: 40px;
+  border: solid 1px #1e1e1e;
+  position: relative;
+  cursor: pointer;
+}
+
+.color-picker .color span {
+  font-size: 14px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  color: #000;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.color-picker .color:hover span {
+  opacity: 1;
+}
+
+.color-picker-info {
+  color: #000;
+}
+
+.color-picker-info p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  opacity: 0.5;
+}
+
+.color-picker-info h4 span {
+  font-weight: 300;
+}
